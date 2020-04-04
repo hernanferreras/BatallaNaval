@@ -2,9 +2,9 @@
 package batallanaval;
 public class Jugador {
     // atributos
-    String nombre;
-    String apellido;
-    int puntaje;
+    public String nombre;
+    public String apellido;
+    private int puntaje;
     // metodo constructor
     public Jugador(){
         
@@ -14,6 +14,16 @@ public class Jugador {
         
     }
         public void consultarpuntaje(){
-        
+            System.out.println("El jugador tiene: "+this.puntaje+" puntos");
+            
     }
+
+    public int getPuntaje() {
+        return puntaje;
+    }
+
+    public void setPuntaje(int puntaje) {
+        this.puntaje = puntaje;
+    }
+    
 }

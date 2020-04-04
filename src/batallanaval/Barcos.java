@@ -2,9 +2,9 @@
 package batallanaval;
 public class Barcos {
     // atributos
-    int largo;
-    String nombre;
-    int estado; // define si está hundido o activo
+    public int largo;
+    private String nombre;
+    public int estado; // define si está hundido o activo
     
     // metodo contructor
     public Barcos(){
@@ -20,6 +20,14 @@ public class Barcos {
     public void moverse(){
         
     }    
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre.toUpperCase();
+    }
     
     
 }
