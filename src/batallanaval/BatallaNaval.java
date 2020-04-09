@@ -1,7 +1,5 @@
-
+    
 package batallanaval;
-
-import java.util.HashSet;
 
 public class BatallaNaval {
 
@@ -16,7 +14,11 @@ public class BatallaNaval {
         Jugador Persona = new Jugador();
         Persona.setPuntaje(1500);
         Persona.consultarpuntaje();
-        
+        System.out.println("Disparos realizados: ");
+        Persona.realizardisparo("A2");
+        Persona.realizardisparo("B4");
+        Persona.realizardisparo("F5");
+        Persona.consultardisparos();
     }
     
 }
