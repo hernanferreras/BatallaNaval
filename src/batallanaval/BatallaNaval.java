@@ -5,11 +5,13 @@ public class BatallaNaval {
 
     public static void main(String[] args) {
        
-        Barcos Lancha = new Barcos(); 
-        Lancha.recibirdisparo();
-        Lancha.largo=1;
-        Lancha.setNombre("maria");
-        System.out.println(Lancha.getNombre());
+//        Barcos Lancha = new Barcos(); 
+//        Lancha.recibirdisparo();
+//        Lancha.largo=1;
+//        Lancha.setNombre("maria");
+//        System.out.println(Lancha.getNombre());
+        
+        Submarino sub = new Submarino(10, "Tiburon", 1);
         
         Jugador Persona = new Jugador();
         Persona.setPuntaje(1500);

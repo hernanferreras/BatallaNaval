@@ -7,7 +7,7 @@ public class Barcos {
     public int estado; // define si está hundido o activo
     
     // metodo contructor
-    public Barcos(){
+    public Barcos(int largo, String nombre, int estado){
         
     }
     // métodos 
