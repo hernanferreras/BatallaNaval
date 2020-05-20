@@ -24,10 +24,12 @@ public class Barcos {
     public String getNombre() {
         return nombre;
     }
-
+    
     public void setNombre(String nombre) {
         this.nombre = nombre.toUpperCase();
     }
     
-    
+    public String toString (){
+        return "Mi nombre de nave es: "+this.nombre;
+    }
 }
